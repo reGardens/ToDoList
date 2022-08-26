@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .navbar .container-fluid {
+  padding: 0 100px;
+}
+body .menu {
+  margin-top: 2em;
+}
+body .menu .container-fluid {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+}
+body .menu .container-fluid .right {
+  text-align: right;
+}
+body .menu .container-fluid .right .btn {
+  border-radius: 50px;
+}
+body #wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+body #wrapper .content {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+body #wrapper .content .left {
+  text-align: right;
+}
+body #wrapper .content .left img {
+  height: 80%;
+}
+body #wrapper .content .right .tambah {
+  border: 10px solid silver;
+  border-radius: 10px;
+  position: relative;
+  width: 200px;
+  height: 150px;
+}
+body #wrapper .content .right .tambah a {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+body #wrapper .content .right .tambah a img {
+  width: 50%;
+  height: 70%;
+}
+body #wrapper .content .right .desc {
+  margin: 20px 0 0 10px;
+}
+body .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper .card {
+  border: none;
+  box-shadow: 0 0 8px 0 silver;
+}
+body .wrapper .card-title {
+  height: 10em;
+}
+
+/*# sourceMappingURL=style.css.map */
